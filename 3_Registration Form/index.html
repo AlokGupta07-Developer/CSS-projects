@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Student registration</h1>
+    </header>
+    <main>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" placeholder="Enter full name" /><br />
+        <label for="email">Email Address:</label>
+        <input type="email" placeholder="Enter email address" /><br />
+        <label for="phone number">Phone Number:</label>
+        <input type="text" placeholder="Enter phone number" /><br />
+        <label for="date of birth">Date of Birth:</label>
+        <input type="date" /><br />
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" />
+        <label for="other">Other</label><br />
+        <label for="course">Course:</label>
+        <select>
+          <option value="Select Your Course" selected disabled>
+            Select Your Course
+          </option>
+          <option value="Computer Science Engineering">
+            Computer Science Engineering
+          </option>
+          <option value="Information Technology">Information Technology</option>
+          <option value="Artificial Intelligence">
+            Artificial Intelligence
+          </option>
+          <option value="Cyber Security">Cyber Security</option>
+          <option value="Data Analytics">Data Analytics</option>
+          <option value="Data Science">Data Science</option></select
+        ><br />
+        <label for="skills">Skills:</label>
+        <input type="checkbox" id="HTML5" />
+        <label for="HTML5">HTML5</label>
+        <input type="checkbox" id="CSS" />
+        <label for="CSS">CSS</label>
+        <input type="checkbox" id="JavaScript" />
+        <label for="JavaScript">JavaScript</label>
+        <input type="checkbox" id="React" />
+        <label for="React">React</label>
+        <input type="checkbox" id="Git" />
+        <label for="Git">Git</label>
+        <input type="checkbox" id="GitHub" />
+        <label for="GitHub">GitHub</label>
+        <br />
+
+        <label for="Address">Address:</label>
+        <textarea id="Address" placeholder="Enter Your Address"></textarea>
+        <br />
+        <button>Register Now</button>
+      </form>
+    </main>
+  </body>
+</html>
